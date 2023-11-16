@@ -30,6 +30,8 @@ CREATE TABLE Empleados (
 );
 /
 ```
+<image src="/src/iScreen Shoter - 20231116111657347.jpg" alt="Descripción de la imagen"> 
+
 ## 5. Procedimiento Almacenado: Aumentar Salario
 ```sql
 CREATE OR REPLACE PROCEDURE AumentarSalario (
@@ -62,6 +64,8 @@ EXCEPTION
 END AumentarSalario;
 /
 ```
+<image src="/src/iScreen Shoter - Microsoft Remote Desktop - 231116113002.jpg" alt="Descripción de la imagen"> 
+    
 ## 6. Función: Calcular Bonificación
 ```sql
 CREATE OR REPLACE FUNCTION CalcularBonificacion(
@@ -83,6 +87,8 @@ BEGIN
 END CalcularBonificacion;
 /
 ```
+<image src="/src/iScreen Shoter - Microsoft Remote Desktop - 231116113132.jpg" alt="Descripción de la imagen"> 
+
 ## 7. Triggers: Antes de Insertar Empleado
 ```sql
 -- Primero creamos una secuencia para generar automáticamente el ID del empleado
@@ -103,6 +109,8 @@ BEGIN
 END antes_de_insertar_empleado;
 /
 ```
+<image src="/src/iScreen Shoter - Microsoft Remote Desktop - 231116113224.jpg" alt="Descripción de la imagen"> 
+
 ## 8. Cursores y Colecciones: Obtener Ventas de Empleado
 ```sql
 BEGIN
@@ -163,6 +171,9 @@ BEGIN
 END obtener_ventas_empleado;
 /
 ```
+<image src="/src/iScreen Shoter - Microsoft Remote Desktop - 231116114941.jpg" alt="Descripción de la imagen"> 
+<image src="/src/iScreen Shoter - Microsoft Remote Desktop - 231116115144.jpg" alt="Descripción de la imagen"> 
+
 # 9. Consultas SQL:
 
 ## a. Seleccionar empleados con salarios entre 40000 y 60000
